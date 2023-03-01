@@ -1,0 +1,25 @@
+.round1 {
+    background-color: #ddccb5;
+    border: 2px solid #897048;
+    border-radius: 100%;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+.parallelogram{ /* membuat class parallelogram */
+    position: relative; /* membuat position relative */
+    padding: 20px; /* membuat padding 20px */
+    background-color: #f0f0f0; /* membuat background warna abu-abu */
+    border: 1px solid #000; /* membuat border 1px solid hitam */
+    border-radius: 50px 0;  /* membuat border radius 50px 0 */
+    box-shadow: 0 0 10px rgba(9, 255, 70, 0.8); /* membuat box shadow */
+}
+.shadow{ /* membuat class shadow */
+    position: relative; /* membuat position relative */
+    padding: 20px; /* membuat padding 20px */
+    margin: 20px 0; /* membuat margin 20px 0 */
+    background-color: #f0f0f0; /* membuat background warna abu-abu */
+    border: 1px solid #000; /* membuat border 1px solid hitam */
+    box-shadow: 2px 2px 20px rgba(2, 163, 43, 0.8); /* membuat box shadow */  
+}
