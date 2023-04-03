@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Clone</title>
+    <link rel="stylesheet" href="Stylelogin.css">
+</head>
+<body>
+    <section>
+        <div class="main">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1280px-Google_2015_logo.svg.png" width="272px" height="92px">
+            <div class="searchBox">
+                <input type="text" name="" class="query" value="">
+                <div class="icon">
+                    <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSK5q0FP74VV9wbfwP378_7kj7iDomHuKrxkXsxDdUT28V9dlVMNUe-EMzaLwaFhneeuZI&usqp=CAU" width="25px" height="25px"></div>
+                    <div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/1200px-Google_mic.svg.png" width="15px" height="22px"></div>
+                </div>
+            </div>
+            <div class="button">
+                <button class="searchBtn">Google Search</button>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        let query = document.querySelector(".query");
+        let searchBtn = document.querySelector(".searchBtn");
+
+        searchBtn.onclick = function(){
+            let url = "https://www.google.com/search?q="+query.value;
+            window.open(url,'_self');
+        }
+    </script>
+</body>
+</html>
